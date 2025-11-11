@@ -39,7 +39,7 @@ jobs:
           pr: false
           scan_summary_output_type: 'table'
           sarif_file: 'findings.sarif'
-          enable_github_action_token: false
+          enable_github_action_token: false # Only required for keyless authentication with Endor Labs
           api_key: ${{ secrets.ENDOR_API_CREDENTIALS_KEY }}
           api_secret: ${{ secrets.ENDOR_API_CREDENTIALS_SECRET }}
           
