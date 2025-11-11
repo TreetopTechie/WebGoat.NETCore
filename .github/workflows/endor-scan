@@ -1,4 +1,4 @@
-name: .NET Core
+name: Endor Labs Scan
 
 on:
   push:
